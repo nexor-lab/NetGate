@@ -1,0 +1,22 @@
+# 运行时数据：包含密码、日志、聊天记录、系统代理备份
+data/
+backup-*/
+*.bak
+*.bak-*
+*.docx.bak-*
+
+# 编译产物
+源码/build/
+NetGateAdmin.exe
+NetGateClient.exe
+*.running-old.exe
+*.new.exe
+*.latest.exe
+*.beta*.exe
+
+# 临时/缓存
+*.tmp
+*.log
+obj/
+bin/
+.vs/
